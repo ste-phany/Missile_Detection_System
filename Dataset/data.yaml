@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['missile']
+
+roboflow:
+  workspace: sanket-gurav-wdafl
+  project: missile-detection-gzysv
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sanket-gurav-wdafl/missile-detection-gzysv/dataset/6
