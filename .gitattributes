@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*frcnn_missile.pth filter=lfs diff=lfs merge=lfs -text
+Test/frcnn_missile.pth filter=lfs diff=lfs merge=lfs -text
